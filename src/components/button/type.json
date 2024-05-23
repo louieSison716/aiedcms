@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_button_types",
+  "info": {
+    "displayName": "Type",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "btn-primary",
+        "btn-secondary"
+      ]
+    }
+  }
+}

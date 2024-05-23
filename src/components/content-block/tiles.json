@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_content_block_tiles",
+  "info": {
+    "displayName": "Tiles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnType": {
+      "type": "enumeration",
+      "enum": [
+        "btn-primary",
+        "btn-secondary"
+      ]
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "imageRight": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
