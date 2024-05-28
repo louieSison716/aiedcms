@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_block_no_image_tiles",
+  "info": {
+    "displayName": "No Image Tiles",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnType": {
+      "type": "enumeration",
+      "enum": [
+        "btn-primary",
+        "btn-secondary"
+      ]
+    },
+    "btnLink": {
+      "type": "string"
+    }
+  }
+}

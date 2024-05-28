@@ -33,6 +33,22 @@ export interface ButtonType extends Schema.Component {
   };
 }
 
+export interface ContentBlockNoImageTiles extends Schema.Component {
+  collectionName: 'components_content_block_no_image_tiles';
+  info: {
+    displayName: 'No Image Tiles';
+    icon: 'plus';
+    description: '';
+  };
+  attributes: {
+    header: Attribute.String;
+    description: Attribute.Text;
+    btnTitle: Attribute.String;
+    btnType: Attribute.Enumeration<['btn-primary', 'btn-secondary']>;
+    btnLink: Attribute.String;
+  };
+}
+
 export interface ContentBlockTiles extends Schema.Component {
   collectionName: 'components_content_block_tiles';
   info: {
@@ -110,6 +126,7 @@ declare module '@strapi/types' {
       'button.link': ButtonLink;
       'button.title': ButtonTitle;
       'button.type': ButtonType;
+      'content-block.no-image-tiles': ContentBlockNoImageTiles;
       'content-block.tiles': ContentBlockTiles;
       'menu.dropdown': MenuDropdown;
       'menu.link': MenuLink;
